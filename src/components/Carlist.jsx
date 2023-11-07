@@ -55,6 +55,7 @@ export default function Carlist() {
 
     const getCars = () => {
         fetch('https://carrestapi.herokuapp.com/cars')
+        //fetch('https://localhost:8080/students')
             .then(response => response.json())
             .then(responseData => {
                 console.log(responseData._embedded.cars);
