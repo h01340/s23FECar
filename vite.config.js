@@ -7,7 +7,7 @@ import react from '@vitejs/plugin-react'
 // })
 
 export default defineConfig({
-  base: '/s23FECar', // Add this row and use your own repository name
+  base: '/s23FECar/', // Add this row and use your own repository name
   plugins: [react()],
   test: {
   globals: true,
